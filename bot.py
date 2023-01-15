@@ -2,7 +2,7 @@ from datetime import datetime
 import telebot
 from pycbrf import ExchangeRates
 
-bot = telebot.TeleBot('5757879125:AAFE9HYXzh5BIP8STyjXUgXL1rvX27SHAZA')
+bot = telebot.TeleBot('5757879125:')
 
 @bot.message_handler(commands=['ex'])
 def ex(message):
